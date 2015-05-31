@@ -1,1 +1,2 @@
 # taylor-want-website
+This is Taylor Want's teacher website. It is designed to provide information about Ms. Want's background, as well as serve as a resource for students and parents/guardians. Students can find a list of upcoming and overdue assignments, as well as links to helpful physics resources. 
