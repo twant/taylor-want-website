@@ -26,6 +26,110 @@
   width: 100%;
 }
 
+#indent{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:0.9em;
+  line-height:1.6em;
+  text-indent: 25px;
+}
+
+#assignments p{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:0.9em;
+  line-height:4em;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:2.5em;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:1.5em
+}
+
+#assignments h4{font-family: "Roboto";
+  font-weight:500;
+  font-size:1em
+  word-wrap: break-word;
+}
+
+nav{
+  white-space:pre;
+}
+nav a{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:1em;
+  text-decoration: none;
+  color: #777;
+}
+
+p a{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:1em;
+  text-decoration: none;
+  color: #777
+}
+
+p a:hover{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:1em;
+  text-decoration: none;
+  color: rgb(44,96,34)
+}
+
+footer{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:0.7em;
+  text-decoration: none;
+  color: #777
+}
+
+figcaption{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:0.8em;
+  text-decoration: none;
+  color: #555
+}
+#curriculum th{
+  height: 80px;
+  border: 1px black solid;
+}
+
+tr{
+  text-align: center;
+}
+
+#curriculum td{
+  height: 80px;
+  border: 1px black solid;
+}
+
+#curriculum table{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:1em;
+  line-height:2em;
+  border: 1px black solid;
+}
+
+div.assign{
+  box-shadow: 1px 1px 1px 1px #555;
+  z-index: 1;
+  }
+
+
 /*///////////LAYOUT///////////*/
 
 /*fixes*/
@@ -75,53 +179,14 @@
   float: left;
 }
 
+/*column that takes up 1/6 of page */
+.col-4 {
+  width: 15%;
+  margin: 2% 0 2% 2%;
+  float:left;
+}
+
 .first {
 margin-left:0%;
-}
-
-p {
-  font-family: "Roboto";
-  font-weight:300;
-  font-size:0.8em;
-  line-height:1.6em;
-}
-
-h2 {
-  font-family: "Roboto";
-  font-weight:300;
-  font-size:2.5em;
-}
-
-h3 {
-  font-family: "Roboto";
-  font-weight:300;
-  font-size:1.5em
-}
-
-nav{
-  white-space:pre;
-}
-nav a{
-  font-family: "Roboto";
-  font-weight:300;
-  font-size:1em;
-  text-decoration: none;
-  color: #777;
-}
-
-p a{
-  font-family: "Roboto";
-  font-weight:300;
-  font-size:1em;
-  text-decoration: none;
-  color: #777
-}
-
-p a:hover{
-  font-family: "Roboto";
-  font-weight:300;
-  font-size:1em;
-  text-decoration: none;
-  color: rgb(44,96,34)
 }
 
