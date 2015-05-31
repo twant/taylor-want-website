@@ -17,58 +17,44 @@
           <h1> Welcome to <a id="secret" target="_blank" href="http://xkcd.com/"> Ms. Want</a>'s Physics World!</h1> 
         </div> 
          <nav>
-            <a href="index.html">About       </a> <a href="curriculum.html">|       Curriculum Overview       |</a>  <a href="assignments.html">       Assignments       |</a>   <a href="resources.html">       Physics Resources       |</a> <a href="contact.html">       Contact</a>
+            <a href="index.html">About       </a> | <a href="curriculum.html">       Curriculum Overview       </a> | <a href="assignments.html">       Assignments       </a> | <a href="resources.html">       Physics Resources       </a> | <a href="contact.html">       Contact</a>
         </nav> 
       </div> <!--wrapper1-->
     </header>     
     <div class="wrapper"> <!--wrapper2-->
+      <h2> Contact </h2>
       <section id="contact">
     <!-- Contact Form -->
-        <form name="contact-form" action="send_form_email.php" method="post" class="col-2 first">
-          <table>
-          <tr>
-           <td valign="top">
-            <label for="first_name">First Name</label>
-           </td>
-           <td valign="top">
+      <p class="col-3 first">To contact Ms. Want via email, please complete the form below or email her directly at taylor.want@gmail.com. </p>
+        <form name="contact-form" action="send_form_email.php" method="post">
+          <p class="col-1 first">
+            <label for="first_name">First Name:</label>
+          </p>
+          <p class="col-2">
             <input  type="text" name="first_name" placeholder="Your first name">
-           </td>
-          </tr>
-          <tr>
-           <td valign="top">
-            <label for="last_name">Last Name</label>
-           </td>
-           <td valign="top">
+          </p>
+          <p class="col-1 first"
+            <label for="last_name">Last Name:</label>
+          </p>
+          <p class="col-2">
             <input  type="text" name="last_name" placeholder="Your last name">
-           </td>
-          </tr>
-          <tr>
-           <td valign="top">
-            <label for="email">Email Address</label>
-           </td>
-           <td valign="top">
+          </p>
+          <p class="col-1 first">
+            <label for="email">Email Address:</label>
+          </p>
+          <p class="col-2">
             <input  type="text" name="email" placeholder="Your email">
-           </td>
-          </tr>
-          <tr>
-           <td valign="top">
-            <label for="message">Message</label>
-           </td>
-           <td valign="top">
-            <textarea  name="message" placeholder= "Please write your message to Ms. Want here."></textarea>
-           </td>
-          </tr>
-          <tr>
-           <td colspan="2" style="text-align:center">
-            <input type="submit" value="Submit">  
-           </td>
-          </tr>
-          </table>
+          </p>
+          <p class="col-1 first">
+            <label for="message">Message:</label>
+          </p>
+          <p class="col-2" id="message">
+            <textarea name="message" placeholder= "Please write your message to Ms. Want here."></textarea>
+          </p>
+          <p class="col-1 first" id="submit">
+            <input type="submit" value="Submit" >  
+          </p>
         </form>
-      <p class="col-1">To contact Ms. Want via email, please complete the form on the right or email her directly at taylor.want@gmail.com. </p>
-      </section>
-
-
       </section>
       <section>
       <footer>

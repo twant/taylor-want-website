@@ -23,8 +23,9 @@
   margin: 10px;
 }
 
-#header {
+#header{
   display:inline;
+  z-index: 1;
 }
 
 nav{
@@ -55,6 +56,7 @@ nav{
   text-indent: 25px;
 }
 
+}
 h2 {
   font-family: "Roboto";
   font-weight:300;
@@ -78,10 +80,10 @@ a{
 
 a:hover{
   font-family: "Roboto";
-  font-weight:300;
+  font-weight:400;
   font-size:1em;
   text-decoration: none;
-  color: rgb(44,96,34);
+  color: rgb(199, 127, 113);
 }
 
 footer{
@@ -114,11 +116,12 @@ table{
   font-weight:300;
   font-size:0.9em;
   background: #fff;
-  line-height: 2em;
+  line-height: 1.25em;
   margin: 2% 3% 0 2%;
   text-align: center;
   border: solid #555;
   color:#444;
+  padding: 0.5%;
 }
 #curriculum p.row-1{
   font-weight:500;
@@ -126,11 +129,16 @@ table{
   line-height:1em;
   height: 2em;
   color:#111;
+  padding-top:0.5%;
 }
 
 #curriculum .col-1, .col-4{
   width: 35%;
   height: 4em;
+}
+
+#curriculum .col-4{
+  padding-top:1.5%;
 }
 
 /*///////////Assignments///////////*/
@@ -143,6 +151,7 @@ table{
   line-height: 3em;
   margin: 10px 0 10px 0;
   border: solid #555;
+  text-align: center;
 }
 
 #assignments h4{
@@ -158,6 +167,11 @@ table{
   color: rgb(108,146,159);
 }
 
+.upcoming a:hover{
+  color:#7293c4;
+  font-weight:400;
+}
+
 .overdue p {
   color: #aa4839 ;
 }
@@ -166,45 +180,80 @@ table{
   color: rgb(199, 127, 113)
 }
 
+.overdue a:hover{
+  color:#aa4839;
+  font-weight:400;
+}
+
 /*///////////Resources///////////*/
 
 #resources img{
   width: 100%;
-  max-height: 100px;
-  padding: 10px;
+  height: 6em;
 }
 
 #resources img:hover{
   width: 100%;
-  max-height: 100px;
-  padding: 10px;
-  border: solid 5px rgb(44,96,34);
+  height: 6em;
+  border: solid rgb(199, 127, 113);
 }
 
-#resources p.col-5 {
-  height: 110px;
-  padding: 25px 0 30px 30px;
-  margin: 2% 0%;
+#resources .col-5 {
+  height: 6.4em;
+  background: #fff;
+  border:solid #555;
 }
 
+#resources p.col-5{
+  padding:0.5% 0 0.5% 0.5%;
+  line-height:1.6em;
+  height:6.4em;
+  font-family: "Roboto";
+}
 /*///////////Contact///////////*/
 
-#contact table{
+#contact p{
   font-family: "Roboto";
   font-weight:300;
   font-size:1em;
   line-height:1em;
   background: #fff;
+  border:solid #555;
+  height: 3em;
+  text-align: center;
+  padding: 1%;
 }
-#contact td{
-  height: 2em;
-  border: 1px black solid;
+
+#contact p input {
+  width: 90%;
+  height: 90%;
 }
-#contact input{
-  height:2em;
-  width: 100%;
-  padding: 10%;
+
+#contact p textarea{
+  width: 99%;
+  height: 99%;
 }
+
+#contact #message{
+  height: 8em;
+  border:solid #555;
+}
+
+#contact #submit{
+  float: right;
+  background:rgb(199, 127, 113);
+}
+
+#contact #submit input{
+  background:rgb(199, 127, 113);
+  overflow:scroll;
+}
+
+#contact .col-3{
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
 /*///////////LAYOUT///////////*/
 
 /*fixes*/
